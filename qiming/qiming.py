@@ -41,7 +41,7 @@ def get_url():
 
 def base64(encrypt_data):
 
-    with open('test.js', encoding='utf-8') as f:
+    with open('qiming.js', encoding='utf-8') as f:
         s = f.read()
 
     result = execjs.compile(s).call('o', encrypt_data)
