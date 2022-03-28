@@ -24,12 +24,10 @@ headers={
     'Connection': 'keep-alive',
     'Content-Length': '240',
     'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
-    'Cookie': 'OUTFOX_SEARCH_USER_ID=834912817@10.169.0.83; OUTFOX_SEARCH_USER_ID_NCOO=1727090705.8985744; UM_distinctid=17e03d97c4f42b-06f7ee7b1fe264-978153c-1fa400-17e03d97c50d40; _ntes_nnid=dc00bf3def0b8a9b072fcbee1f5c93a7,1640742139559; JSESSIONID=aaaJjcJ-4TL8qdbnzTU4x; ___rl__test__cookies=1641461829683',
     'Host': 'fanyi.youdao.com',
     'Origin': 'https://fanyi.youdao.com',
     'Referer': 'https://fanyi.youdao.com/',
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36',
-    'X-Requested-With': 'XMLHttpRequest'
 }
 
 md = md5()
