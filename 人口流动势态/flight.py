@@ -36,7 +36,7 @@ city_list = json.loads(city_list)
 names = jsonpath.jsonpath(city_json,'$..city_name')
 # print(names,len(names))
 codes = jsonpath.jsonpath(city_json,'$..city_iata_code')
-with open('test6.js', 'r', encoding='utf-8') as f:
+with open('flight.js', 'r', encoding='utf-8') as f:
     jscode = f.read()
 
 res = execjs.compile(jscode).call('dataDecode', data)
